@@ -22,6 +22,8 @@ a {
 
 img {
   max-width: 100%;
+  border-radius: 5px;
+  display: block;
 }
 
 /*GRID GERAL*/
@@ -97,13 +99,24 @@ img {
   background: #b07dfb;
 }
 
+/*CONTENT*/
+
 .content {
   grid-area: content;
 }
 
+/*ANÚNCIO*/
+
 .anuncio {
   grid-area: anuncio;
+  background: #fafbfc;
+  display: grid;
+  align-content: start;
+  padding: 30px;
+  gap: 30px;
 }
+
+/*FOOTER*/
 
 .footer {
   grid-area: footer;
