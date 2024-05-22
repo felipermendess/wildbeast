@@ -99,6 +99,75 @@ img {
   background: #b07dfb;
 }
 
+/*ESTILOS GERAIS*/
+
+p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  letter-spacing: -0.005em;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.info p + p {
+  margin-top: 30px;
+}
+
+/*TITULO*/
+
+.titulo {
+  color: #b07dfb;
+}
+.titulo h1 {
+  font-size: 3.75em;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.titulo span {
+  font-size: 0.875em;
+  font-style: italic;
+}
+
+/*CARACTERISTICAS*/
+
+.caracteristicas {
+  display: flex;
+  align-items: start;
+}
+
+.caracteristicas span {
+  display: block;
+  color: #b07dfb;
+}
+
+.caracteristicas > div {
+  background: linear-gradient(135deg, #8844ee, #b07dfb);
+  width: 80px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px 0 rgba(44, 44, 44, 0.15);
+  position: relative;
+}
+
+.caracteristicas > div:first-child {
+  margin-right: 30px;
+}
+
+.caracteristicas .numero {
+  color: #b07dfb;
+  font-size: 3em;
+  line-height: 1;
+  margin: 10px auto;
+}
+
+.caracteristicas .rotulo {
+  background: white;
+  padding: 5px 0;
+  border-radius: 0 0 5px 5px;
+  position: relative;
+  top: 2px;
+}
+
 /*CONTENT*/
 
 .content {
