@@ -152,6 +152,13 @@ img {
     padding: 0 30px;
     position: relative;
   }
+  .sidenav::after {
+    content: "⮕";
+    position: absolute;
+    top: 5px;
+    right: 30px;
+    animation: seta 0.5s ease-in 0s infinite alternate;
+  }
   .sidenav ul {
     display: flex;
   }
@@ -160,13 +167,6 @@ img {
   }
   .sidenav ul li a {
     margin: 30px 30px 30px 0;
-  }
-  .sidenav::after {
-    content: "⮕";
-    position: absolute;
-    top: 5px;
-    right: 30px;
-    animation: seta 0.5s ease-in 0s infinite alternate;
   }
 }
 
